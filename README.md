@@ -7,5 +7,6 @@ Le but du TP sera de corriger le code de la classe `Complex` en s'aidant de test
 
 ## Membres du projet
 
-- NOM, prénom, numéro de groupe, du premier participant
-- NOM, prénom, numéro de groupe, du deuxième participant
+- DHONT, Florent, Groupe 1
+- de JAHAM, Charles, Groupe 1
+- Equipe: DHONT-deJAHAM
