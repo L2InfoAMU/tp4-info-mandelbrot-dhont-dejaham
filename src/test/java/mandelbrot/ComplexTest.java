@@ -142,8 +142,8 @@ public class ComplexTest {
 
     @Test
     void testAdd(){
-        Complex c1 = new Complex(2,0);
-        assertEquals(c1, onePlusI.add(oneMinusI));
+        assertEquals(two, onePlusI.add(oneMinusI));
+        assertEquals(minusI, minusOne.add(oneMinusI));
     }
 
     @Test
