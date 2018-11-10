@@ -139,4 +139,10 @@ public class ComplexTest {
         Complex c1 = new Complex(real,0);
         assertEquals(c1, Complex.real(real));
     }
+
+    @Test
+    void testAdd(){
+        Complex c1 = new Complex(2,0);
+        assertEquals(c1, onePlusI.add(oneMinusI));
+    }
 }
