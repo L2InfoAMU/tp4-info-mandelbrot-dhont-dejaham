@@ -134,8 +134,7 @@ public class ComplexTest {
 
     @Test
     void testReal(){
-        Complex c1 = new Complex(real,0);
-        assertEquals(c1, Complex.real(real));
+        assertEquals(new Complex(real,0), Complex.real(real));
     }
 
     @Test
