@@ -178,9 +178,9 @@ public class ComplexTest {
 
     @Test
     void testScale(){
-        assertEquals(onePlusI.scale(2), new Complex(2,2));
-        assertEquals(twoI.scale(0), Complex.ZERO);
-        assertEquals(oneMinusI.scale(1), oneMinusI);
+        assertEquals(new Complex(2,2), onePlusI.scale(2));
+        assertEquals(Complex.ZERO, twoI.scale(0));
+        assertEquals(oneMinusI, oneMinusI.scale(1));
     }
 
     @Test
