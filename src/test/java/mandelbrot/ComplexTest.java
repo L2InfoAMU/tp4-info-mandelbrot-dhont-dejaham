@@ -161,8 +161,7 @@ public class ComplexTest {
 
     @Test
     void testPow(){
-        Complex c1 = new Complex(1,0);
-        assertEquals(c1, oneMinusI.pow(0));
+        assertEquals(new Complex(1,0), oneMinusI.pow(0));
         assertEquals(onePlusI,onePlusI.pow(1));
         assertEquals(twoI,onePlusI.pow(2));
         assertEquals(new Complex(-4,4),oneMinusI.pow(5));
